@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql:///christime_blog
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  type-aliases-package: club.christime.writing.entity
+  mapper-locations: classpath:mapper/*.xml
